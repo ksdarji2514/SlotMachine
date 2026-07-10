@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SlotMachine.Common\SlotMachine.Common.csproj" />
+    <ProjectReference Include="..\SlotMachine.DTO\SlotMachine.DTO.csproj" />
+    <ProjectReference Include="..\SlotMachine.Repository\SlotMachine.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

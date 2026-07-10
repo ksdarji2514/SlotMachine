@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="SlotMachine.API/SlotMachine.API.csproj" />
+  <Project Path="SlotMachine.Common/SlotMachine.Common.csproj" />
+  <Project Path="SlotMachine.Database/SlotMachine.Database.csproj" />
+  <Project Path="SlotMachine.DTO/SlotMachine.DTO.csproj" />
+  <Project Path="SlotMachine.Repository/SlotMachine.Repository.csproj" />
+  <Project Path="SlotMachine.Service/SlotMachine.Service.csproj" />
+  <Project Path="SlotMachine.Tests/SlotMachine.Tests.csproj" />
+</Solution>
