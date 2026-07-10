@@ -35,6 +35,7 @@ builder.Services.AddValidatorsFromAssemblies(new[] { typeof(SpinRequestValidator
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddSwaggerGen();            
 
 var app = builder.Build();
